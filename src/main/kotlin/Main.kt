@@ -9,6 +9,7 @@
 //java -jar kt_jar.jar
 
 
+/*
 // Kotlin folder creat code
 import java.io.File
 
@@ -29,4 +30,38 @@ fun createFolder(path: String) {
 fun main() {
     val folderPath = "path/to/your/new/folder"
     createFolder(folderPath)
+}
+*/
+
+
+fun main()
+{
+    val maxIntegervalue = Int.MAX_VALUE
+    val minintegervalue = Int.MIN_VALUE
+
+    val max_byte_value : Byte = Byte.MAX_VALUE
+    val min_byte_value : Byte = Byte.MIN_VALUE
+
+    val max_short_value = Short.MAX_VALUE
+    val min_short_value  = Short.MIN_VALUE
+
+    val max_long_value : Long = Long.MIN_VALUE
+    val min_long_value = Long.MAX_VALUE
+
+    println("\n"+"\n"+"\n"+"\n")
+    println("This Computer Kotlin Data Type Memory Range..  :)")
+
+    println("Integer value |  max_value = $maxIntegervalue   |  minvalue = $minintegervalue")
+    println("Byte value |  max_value = $max_byte_value   |  minvalue = $min_byte_value")
+    println("Short value |  max_value = $max_short_value   |  minvalue = $min_short_value")
+    println("Long value |  max_value = $max_long_value   |  minvalue = $min_long_value")
+/*
+
+This Computer Kotlin Data Type Memory Range..  :)
+Integer value |  max_value = 2147483647   |  minvalue = -2147483648
+Byte value |  max_value = 127   |  minvalue = -128
+Short value |  max_value = 32767   |  minvalue = -32768
+Long value |  max_value = -9223372036854775808   |  minvalue = 9223372036854775807
+ */
+
 }

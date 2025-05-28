@@ -33,7 +33,7 @@ fun main() {
 }
 */
 
-
+/*
 fun main()
 {
     val maxIntegervalue = Int.MAX_VALUE
@@ -55,6 +55,8 @@ fun main()
     println("Byte value |  max_value = $max_byte_value   |  minvalue = $min_byte_value")
     println("Short value |  max_value = $max_short_value   |  minvalue = $min_short_value")
     println("Long value |  max_value = $max_long_value   |  minvalue = $min_long_value")
+
+ */
 /*
 
 This Computer Kotlin Data Type Memory Range..  :)
@@ -64,4 +66,62 @@ Short value |  max_value = 32767   |  minvalue = -32768
 Long value |  max_value = -9223372036854775808   |  minvalue = 9223372036854775807
  */
 
+
+/*
+Kotlin symbols and Operator
+Angle Brackets < >
+Angle brackets are used for generic type parameters.
+
+fun <T> genericFunction(param: T) {
+    println(param)
+}
+Here, <T> specifies a generic type parameter.
+
+
+. Dot .
+The dot operator is used for member access (calling methods and properties).
+
+val list = listOf(1, 2, 3)
+val size = list.size
+In this example, list.size accesses the size property of the list.
+
+
+
+
+ */
+/*  var name:String;
+        name="ram";println(name)
+        */
+
+/*
+Type conversion in Kotlin
+To convert a numeric data type to another type, you must use one of the following functions:
+toByte(), toShort(), toInt(), toLong(), toFloat(), toDouble() or toChar():
+
+ */
+/*val x: Int = 5
+val y: Long = x.toLong()
+println(y)*/
+
+//Kotlin String Fun
+/*var txt1 ="Kotlin Developer"
+ var txt2 ="kotlindevloper"
+ println(txt1.compareTo(txt2))
+ println(txt1.toUpperCase())
+ println(txt1.toLowerCase())*/
+
+/*var txt = "Hello World"
+println(txt.uppercase())   // Outputs "HELLO WORLD"
+println(txt.lowercase())*/
+
+//string builder
+/*val builder = StringBuilder()
+for (i in 1..5) {
+        builder.append(i)
+}
+val result = builder.toString()*/
+fun main()
+{
+    val hellow = "helloe world"
+    println("hellow ${hellow.uppercase()}")
 }

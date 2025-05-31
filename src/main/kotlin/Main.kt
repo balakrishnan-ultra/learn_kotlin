@@ -33,7 +33,7 @@ fun main() {
 }
 */
 
-
+/*
 fun main()
 {
     val maxIntegervalue = Int.MAX_VALUE
@@ -55,6 +55,8 @@ fun main()
     println("Byte value |  max_value = $max_byte_value   |  minvalue = $min_byte_value")
     println("Short value |  max_value = $max_short_value   |  minvalue = $min_short_value")
     println("Long value |  max_value = $max_long_value   |  minvalue = $min_long_value")
+
+ */
 /*
 
 This Computer Kotlin Data Type Memory Range..  :)
@@ -84,9 +86,9 @@ Long value |  max_value = -9223372036854775808   |  minvalue = 92233720368547758
      println(txt1.toUpperCase())
      println(txt1.toLowerCase())*/
 
-    var txt = "Hello World"
-    println(txt.uppercase())   // Outputs "HELLO WORLD"
-    println(txt.lowercase())
+   // var txt = "Hello World"
+   // println(txt.uppercase())   // Outputs "HELLO WORLD"
+   // println(txt.lowercase())
 
     //string builder
     /*val builder = StringBuilder()
@@ -95,4 +97,13 @@ Long value |  max_value = -9223372036854775808   |  minvalue = 92233720368547758
     }
     val result = builder.toString()*/
 
-}
+
+
+
+
+
+
+
+
+
+
